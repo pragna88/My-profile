@@ -4,11 +4,9 @@ Author URI: http://webthemez.com/
 Description: This theme is a pretty versatile, that places the emphasis of the home page. It would be great for a corporate websites, business websites, personal blog.
 License: Free to use for personal and commercial, but you need to place back link in the bottom of the template.
 */
-@import url(
-  http://fonts.googleapis.com/css?family=Source + Sans + Pro:400,
+@import url(http://fonts.googleapis.com/css?family=Source + Sans + Pro:400,
   600,
-  700
-);
+  700);
 @import url(http://fonts.googleapis.com/css?family=Pacifico);
 
 * {
@@ -26,12 +24,12 @@ body {
 
 ::selection {
   color: #fff;
-  background: #cc4646;
+  background: #5c1616;
 }
 
 ::-moz-selection {
   color: #fff;
-  background: #cc4646;
+  background: #5c1616;
 }
 
 p {
@@ -75,7 +73,7 @@ p {
 }
 
 a {
-  color: #cc4646;
+  color: #5c1616;
   text-decoration: none;
   text-shadow: none;
   -webkit-transition: all 0.2s linear;
@@ -86,7 +84,7 @@ a {
 }
 
 a:hover {
-  color: #df3927;
+  color: #5c1616;
   text-decoration: none;
 }
 
@@ -95,11 +93,11 @@ a:hover {
   border-radius: 0px;
 }
 .btn:hover {
-  background: #e24040;
+  background: #5c1616;
 }
 
 .btn-primary {
-  background: #cc4646;
+  background: #5c1616;
 }
 
 .form-control {
@@ -125,7 +123,7 @@ a:hover {
   bottom: 20px;
   right: 20px;
   z-index: 5;
-  background: #cc4646;
+  background: #5c1616;
 }
 .topHome .fa-2x {
   font-size: 20px;
@@ -137,16 +135,16 @@ a:hover {
 .header {
   position: fixed;
   width: 100%;
-  background: #cc4646;
+  background: #5c1616;
   z-index: 50;
   border-radius: 0;
   top: 0px;
-  border-bottom: 1px solid #f57676;
+  border-bottom: 1px solid #5c1616;
 }
 
 .navbar-inverse .navbar-toggle {
-  border-color: #cc4646;
-  background-color: #cc4646;
+  border-color: #5c1616;
+  background-color: #5c1616;
 }
 .header .navbar {
   margin: 0;
@@ -158,12 +156,12 @@ a:hover {
 
 .navbar-inverse .navbar-toggle:hover,
 .navbar-inverse .navbar-toggle:focus {
-  background: #cc4646;
+  background: #5c1616;
 }
 
 .navbar-inverse .navbar-nav > li > a:hover,
 .navbar-inverse .navbar-nav > li > a:focus {
-  color: #cc4646;
+  color: #5c1616;
 }
 
 .navbar-inverse .navbar-toggle:hover .icon-bar {
@@ -187,7 +185,7 @@ a:hover {
 /*.carousel-inner*/
 #myCarousel {
   margin-top: 50px;
-  border-bottom: 4px solid #cc4646;
+  border-bottom: 4px solid #5c1616;
 }
 
 .carousel-inner > .item {
@@ -219,7 +217,7 @@ a:hover {
 
 .actionPanel {
   padding: 25px 0;
-  background: #cc4646;
+  background: #5c1616;
 }
 
 .actionPanel h3 {
@@ -227,7 +225,7 @@ a:hover {
 }
 
 .circle {
-  background: #cc4646;
+  background: #5c1616;
   height: 60px;
   width: 60px;
   border-radius: 35px;
@@ -310,7 +308,7 @@ a:hover {
 }
 
 .page-section h2 {
-  color: #cc4646;
+  color: #5c1616;
 }
 
 .page-section p {
@@ -323,7 +321,7 @@ a:hover {
 }
 
 .darkBg .fa {
-  color: #cc4646;
+  color: #5c1616;
 }
 /*--- Banner ----*/
 .banner-container {
@@ -472,7 +470,7 @@ a:hover {
   background-color: #d6d6d6;
 }
 .progress .progress-bar {
-  background-color: #cc4646;
+  background-color: #5c1616;
 }
 /*Skills*/
 
@@ -488,7 +486,7 @@ a:hover {
   position: absolute;
   content: ' ';
   width: 2px;
-  background-color: #cc4646;
+  background-color: #5c1616;
   left: 50%;
   margin-left: -1.5px;
 }
@@ -506,7 +504,7 @@ a:hover {
   top: 20px;
   left: 50%;
   margin-left: -25px;
-  background-color: #cc4646;
+  background-color: #5c1616;
   z-index: 36;
   border-top-right-radius: 50%;
   border-top-left-radius: 50%;
@@ -531,7 +529,7 @@ a:hover {
   top: 40px;
 }
 #timeline .timeline-badge.timeline-filter-movement a span {
-  color: #cc4646;
+  color: #5c1616;
   font-size: 1.3em;
   top: -1px;
 }
@@ -544,13 +542,13 @@ a:hover {
   margin-left: -18px;
 }
 #timeline .timeline-badge.timeline-future-movement a span {
-  color: #cc4646;
+  color: #5c1616;
   font-size: 0.9em;
   top: 2px;
   left: 1px;
 }
 #timeline .timeline-movement {
-  border-bottom: dashed 1px #cc4646;
+  border-bottom: dashed 1px #5c1616;
   position: relative;
 }
 #timeline .timeline-movement.timeline-movement-top {
@@ -596,7 +594,7 @@ a:hover {
   .timeline-panel-ul
   li
   span.importo {
-  color: #468c1f;
+  color: #3c9c08;
   font-size: 1.3em;
 }
 #timeline
@@ -612,7 +610,7 @@ a:hover {
   .timeline-panel.debits
   .timeline-panel-ul
   span.importo {
-  color: #e2001a;
+  color: #ca1515;
   font-size: 1.3em;
 }
 
@@ -661,7 +659,7 @@ a:hover {
 .team-member .member-img img {
   max-width: 250px;
   margin: 0 auto;
-  border: 1px solid #cc4646;
+  border: 1px solid #5c1616;
 }
 
 .team-member h4 {
@@ -741,12 +739,12 @@ nav#filter li {
 nav#filter a {
   padding: 4px 12px;
   line-height: 20px;
-  border: 1px solid #cc4646;
+  border: 1px solid #5c1616;
   text-decoration: none;
 }
 
 .current {
-  background: #cc4646;
+  background: #5c1616;
   color: #fff;
 }
 
@@ -929,7 +927,7 @@ footer {
 }
 
 .social a:hover {
-  color: #c0392b;
+  color: #5c1616;
 }
 
 .social a {
